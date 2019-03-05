@@ -13,7 +13,7 @@
 #include <stdlib.h>
 void 	init_random (int *array, unsigned long length){
   for (int i = 0; i < length; i++) {
-    array[i] = rand()%10;
+    array[i] = rand()%20;
   }
 }
 
@@ -27,7 +27,7 @@ void 	bubble_sort (int *array, unsigned long length){
     if (array[j] > array[j + 1]) {
       int temp = array[j];
       array[j]= array[j+1];
-      array[j+1] = array[j];
+      array[j+1] = temp;
       swapCount++;
       }
     }
