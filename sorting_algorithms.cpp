@@ -3,11 +3,11 @@
  *-----------------------------------------------------------------------------
  * Exercise Number: #exercise_number#
  * File:			sorting_algorithms.cpp
- * Author(s):		<your name>
+ * Author(s):		Nadia Bajim
  * Due Date:		#due#
  *-----------------------------------------------------------------------------
  * Description:
- * <your description here>
+ * Ich  habe dieses Beispiel ganz alleine gemacht, ich hoffe, dass Herr Prof. Haslinger stolz auf mich ist! <3
  *-----------------------------------------------------------------------------
 */
 #include <stdlib.h>
@@ -29,9 +29,9 @@ void 	bubble_sort (int *array, unsigned long length){
       array[j]= array[j+1];
       array[j+1] = array[j];
       swapCount++;
+      }
     }
-  }
-} while (swapCount != 0);
+  }while (swapCount != 0);
 }
 
 void 	insertion_sort (int *array, unsigned long length){
